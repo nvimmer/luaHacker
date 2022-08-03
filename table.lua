@@ -7,7 +7,7 @@ end
 
 
 local data = {
-  {"billy", 12}
+  {"billy", 12},
   {"john", 20},
 }
 
