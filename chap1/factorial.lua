@@ -1,5 +1,4 @@
 -- define a factorial function
---
 
 local function fact(n)
   if n == 0 then
