@@ -102,5 +102,18 @@ end
 print( sum(1,2))
 
 
+local function foo()
+  local n = 10
+end
+
+print(n)
+
+
+local i = 0
+
+while i <= 3 do
+  print("hi")
+  i = i + 1
+end
 
 
