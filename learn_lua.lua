@@ -83,9 +83,24 @@ elseif x == 18 or x > 18 then
 end
 
 
-local x = 18
-
 if not x == 18 then
   print("kiddo")
 end
+
+
+local print_num = function(z)
+  print(z)
+end
+
+print_num(a)
+
+
+local function sum(num1, num2)
+  return num1 + num2
+end
+
+print( sum(1,2))
+
+
+
 
