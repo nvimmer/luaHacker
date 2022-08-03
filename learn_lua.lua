@@ -46,4 +46,46 @@ print(isAlive)
 ]]
 
 
+-- Number comparisons
+local age = 10
+
+if age > 18 then
+  print("over 18")
+end
+
+-- elseif and else
+age = 20
+
+if age > 18 then
+  print("over 18")
+elseif age == 18 then
+  print("18 huh")
+else
+  print("Kiddo")
+end
+
+-- Boolean comparison
+
+if isAlive then
+  print("Be greateful!")
+end
+
+if name ~= "sid" then
+  print("not sid")
+end
+
+
+
+if age == 10 and x > 0 then
+  print("kiddo")
+elseif x == 18 or x > 18 then
+  print("over 18")
+end
+
+
+local x = 18
+
+if not x == 18 then
+  print("kiddo")
+end
 
