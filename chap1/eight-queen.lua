@@ -1,5 +1,5 @@
 N = 8
-function isplaceok(a, n, c)
+local function isplaceok(a, n, c)
   for i = 1, n - 1 do
     if(a[i] == c) or  (a[i] - i == c - n) or (a[i] + i == c + n) then
       return false
@@ -8,7 +8,7 @@ function isplaceok(a, n, c)
   return true
 end
 
-function printsolution  (a)
+local function printsolution  (a)
   for i = 1, N do
     for j = 1, N do
       io.write(a[i] == j and "X" or "-", " ")
@@ -18,7 +18,7 @@ function printsolution  (a)
   io.write("\n")
 end
 
-function addqueen(a , n)
+local function addqueen(a , n)
   if n > N then
     printsolution(a)
   else
