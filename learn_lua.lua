@@ -116,4 +116,7 @@ while i <= 3 do
   i = i + 1
 end
 
-
+for i = 0, 3 then
+  print("hi")
+  i = i + 1
+end
