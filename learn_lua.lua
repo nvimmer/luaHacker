@@ -120,3 +120,26 @@ for i = 0, 3 then
   print("hi")
   i = i + 1
 end
+
+local colors = { "red", "green", "blue" }
+
+print(colors[1])
+print(colors[2])
+print(colors[3])
+
+
+for i = 1, #colors do
+  print(colors[i])
+end
+
+for index, value in ipairs(colors) do
+  print(colors[index])
+  print(value)
+end
+
+for _, value in ipairs(colors) do
+  print(value)
+end
+
+
+
