@@ -9,6 +9,7 @@ local function fact(n)
 end
 
 print("enter a number:")
+
 local a = io.read("*n")
 print(fact(a))
 
