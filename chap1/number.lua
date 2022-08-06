@@ -41,3 +41,16 @@ print(3 < 2)
 print(3 <= 2)
 print(2 == 3)
 print( 2~= 2)
+
+
+
+
+-- math
+print(math.random())
+print(math.random(6))
+print(math.random(1, 60))
+
+
+
+
+
