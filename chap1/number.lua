@@ -75,3 +75,9 @@ print(round(2.5))
 print(round(3.5))
 print(round(-2.5))
 print(round(-1.5))
+
+print(math.maxinteger)
+print(math.mininteger)
+print(math.maxinteger + 1  == math.mininteger)
+print(math.mininteger - 1 == math.maxinteger)
+
