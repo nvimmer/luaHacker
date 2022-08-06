@@ -50,6 +50,8 @@ print(math.random())
 print(math.random(6))
 print(math.random(1, 60))
 
+print(math.randomseed(os.time()))
+
 
 
 
