@@ -1,5 +1,5 @@
-a = "one string"
-b = string.gsub(a, "one" , "another")
+local a = "one string"
+local b = string.gsub(a, "one" , "another")
 print(a)
 print(b)
 
@@ -9,6 +9,12 @@ print(#"good bye")
 a = "Hello"
 print(a .. " World")
 print(a)
+
+print("\n")
+print("one line\nnext line\n\"in quotes\", 'in quotes'")
+print('a backslash inside quotes: \'\\\'')
+print("a simpler way: '\\'")
+print('\n')
 
 print(string.rep("abc", 3))
 print(string.reverse("A long Line!"))
