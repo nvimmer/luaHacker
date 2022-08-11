@@ -16,6 +16,19 @@ print('a backslash inside quotes: \'\\\'')
 print("a simpler way: '\\'")
 print('\n')
 
+local page =[[
+<html>
+<head>
+  <title>An HTML Page</title>
+</head>
+<body>
+  <a href=="http://www.lua.org">lua</a>
+</body>
+</html>
+]]
+
+print(page)
+
 print(string.rep("abc", 3))
 print(string.reverse("A long Line!"))
 print(string.lower("A Long Line!"))
